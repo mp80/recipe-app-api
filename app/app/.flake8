@@ -1,2 +1,7 @@
 [flake8]
-exclude=**settings*.py,**__init__.py,**/migrations
+max-line-length = 100
+exclude =
+  migrations,
+  __pycache__,
+  manage.py,
+  settings.py
